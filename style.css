@@ -2,14 +2,16 @@ h1
     {
         color: rgb(214, 45, 15);
         Background-color: rgb(13, 61, 219);
+        border-right-width: thin;
         border: 5px solid black;
         font-size:50pt;
-        text-shadow: 1px 1px 2px black, 0 0 1em rgb(0, 0, 0);
+        text-shadow: 5px 5px 5px black, 0 0 1em rgb(0, 0, 0);
     }
 
 h2
     {
-color: rgb(25, 170, 12);
+        color: rgb(24, 210, 216); 
+        font-size: xx-large;
     }
 
 h3:hover
@@ -17,3 +19,9 @@ h3:hover
         font-size:50pt;
         color: rgb(255, 0, 179);
         text-shadow: 1px 1px 2px rgb(255, 0, 0), 0 0 1em rgb(0, 0, 0);
+    }
+h4
+    {
+        color: rgb(35, 204, 19);
+        font-size: x-large;
+    }  

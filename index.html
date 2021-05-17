@@ -10,28 +10,52 @@
     <body background="doom.jpg">
         <h1 align="center">DOOM DOOM DOOM DOOM DOOM DOOM DOOM DOOM DOOM DOOM DOOM</h1>
 
-        <h3 align="center">HELL</h3>
+        <h3 align="center"> HELL</h3>
         <h2>Нахождение максимального числа: Индивидуалльное задание №1</h2>
         <form name="form1">
-            <h2> A = <input type="text" name="A" size="4" placeholder="Input A"></h2>
-            <h2> B = <input type="text" name="B" size="4" placeholder="Input B"></h2>
+           <h4> A = <input type="text" name="A" size="4" placeholder="Input A"> </h4>
+            <h4> B = <input type="text" name="B" size="4" placeholder="Input B"></h4>
             <br> <br>
             <input type="button" value="Cчитать!" onClick="Max()" />
             <br> <br>
-            <h2>Вывод = <output type="text" name="x1" size="20" placeholder="Output"></h2>
+            <h4>Вывод = <output type="text" name="x1" size="20" placeholder="Output"></h4>
             <br> <br>
         </form>
 
         <h2>Взаимодействие с пользователем: Индивидуальное задание №2</h2>
         <form name="form2">
-            <h2>Admin:</h2>
+            <h4>Admin:</h4>
             <input type="button" value="Показать" onClick="Show()" />
+            <br> <br>
         </form>
 
         <h2>Запрос возраста: Индивидуалльное задание №3</h2>
         <form name="form3">
-            <h2>Возраст:</h2>
+            <h4>Возраст:</h4>
             <input type="button" value="Показать" onClick="Age()" />
+            <br> <br>
+        </form>
+
+        <h2>Информация обо мне: Индивидуальное задание №4</h2>
+        <form name="form4">
+            <img src="Doomguy.jpg" alt="Photo">
+            <h4>  ФИО: Мандрус Денис Александрович<br>
+            Возраст: 21 лет<br>
+            Пол: Мужской<br>
+            Город: Москва<br>
+            Телефон: Xiaomi mi Max 2 <br></h4>
+            <br> <br>
+        </form>
+
+        <h2>Анкета: Индивидуальное задание №5</h2>
+        <h4>Расскажите о себе!</h4>
+        <h4> Как вас зовут? <input type="text" name="q" size="20" placeholder="Фамилия Имя" required></h4>
+        <h4><input type="checkbox" id="one" onClick="fun1()"> -  Студент </h4>
+        <h4><input type="checkbox" id="one" onClick="fun1()"> -  Работающий </h4>
+        <h4><input type="checkbox" id="one" onClick="fun1()"> -  Неработающий </h4>
+        <h4> Укажите свой возраст <input type="number" name="e" size="10" placeholder="Возраст"required min="1" max = "100"></h4>
+        <h4> Оставьте свой комментарий <input type="text" name="q" size="30" placeholder="Ваш комментарий" required></h4>
+        <input type="button" value="Отправить на сервер" onClick="Com()">
     </body>
     
-</html>ы
+</html>
